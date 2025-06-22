@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violenciómetro - No estás solo/a</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="violenciometro.html">Violenciómetro</a></li>
+                <li><a href="prevencion.html">Prevenir y Denunciar</a></li>
+                <li><a href="contacto.html">Busca Ayuda</a></li>
+            </ul>
+        </div>
+        <div class="tagline">
+            <h1>No estás sola</h1>
+        </div>
+    </header>
+
+    <main class="content-wrapper">
+        <section id="violenciometro-section" class="content-section violenciometro-page">
+            <div class="violenciometro-header">
+                 <button class="test-button" id="resetButton">¡Reiniciar Test!</button>
+                 <p class="intro-text">En el violenciómetro vas a poder calcular cual es el grado de gravedad de la violencia que sufres, sin embargo por mas que de un número bajo...<br><strong>LA VIOLENCIA ES VIOLENCIA</strong></p>
+            </div>
+
+            <div class="violenciometro-container">
+                <div class="violenciometro-fill" style="width: 0%;"></div>
+            </div>
+
+            <div class="violenciometro-lists">
+                <div class="list-column warning-level">
+                    <h2>¡CUIDADO!</h2>
+                    <ul>
+                        <li data-points="1">1. Bromas hirientes (burlas)</li>
+                        <li data-points="2">2. Chantajear</li>
+                        <li data-points="2">3. Mentir / Engañar</li>
+                        <li data-points="3">4. Ignorar / Ley del hielo</li>
+                        <li data-points="3">5. Celar</li>
+                        <li data-points="4">6. Culpabilizar</li>
+                        <li data-points="4">7. Descalificar</li>
+                        <li data-points="5">8. Humillar en público / Ofender</li>
+                        <li data-points="5">9. Manipular</li>
+                        <li data-points="6">10. Intimidar / Amenazar</li>
+                    </ul>
+                </div>
+                <div class="list-column help-level">
+                    <h2>¡PIDE AYUDA!</h2>
+                    <ul>
+                        <li data-points="7">11. Controlar / Prohibir</li>
+                        <li data-points="8">12. Destruir artículos personales</li>
+                        <li data-points="8">13. Manosear / Caricias agresivas</li>
+                        <li data-points="9">14. Caricias agresivas</li>
+                        <li data-points="9">15. Golpear "jugando"</li>
+                        <li data-points="10">16. Pellizcar / Arañar</li>
+                        <li data-points="10">17. Empujar / Tironear</li>
+                        <li data-points="11">18. Cachetear / Patear</li>
+                        <li data-points="11">19. Espiar obsesivamente</li>
+                        <li data-points="12">20. Acoso callejero</li>
+                        <li data-points="12">21. Amenazar para publicar imágenes íntimas (sexting)</li>
+                    </ul>
+                </div>
+                <div class="list-column danger-level">
+                    <h2>¡TU VIDA ESTA EN RIESGO!</h2>
+                    <ul>
+                        <li data-points="13">22. Pornovenganza</li>
+                        <li data-points="14">23. Maltrato psicológico y/o verbal</li>
+                        <li data-points="15">24. Lesionar físicamente</li>
+                        <li data-points="16">25. Encerrar, aislar</li>
+                        <li data-points="17">26. Amenazar de muerte</li>
+                        <li data-points="18">27. Amenazar con objetos y armas</li>
+                        <li data-points="19">28. Abuso sexual</li>
+                        <li data-points="20">29. Violar</li>
+                        <li data-points="21">30. Mutilar</li>
+                        <li data-points="22">31. Intento de feminicidio</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
