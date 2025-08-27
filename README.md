@@ -1,1 +1,0 @@
-# violencia-p-g
